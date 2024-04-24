@@ -8,10 +8,30 @@ body {
 }
 
 .table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     padding-top: 5rem;
     max-width: 90%;
     margin: 0 auto;
+    overflow: hidden;
     img {
-        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 70rem) {
+    .table {
+        max-width: calc(100% + 20rem);
+        margin-left: -5rem;
+        margin-right: -5rem;
+    }
+}
+
+@media screen and (max-width: 40rem) {
+    .table {
+        min-width: 40rem;
     }
 }
