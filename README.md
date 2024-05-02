@@ -1,4 +1,8 @@
+github:
 https://pgmgent-atwork2.github.io/project-1-workshop-start-2-code-mindfulmatches/
+
+figma:
+https://www.figma.com/file/wwV7eZL1iAgh8nRbnXQem8/MindfulMatches?type=whiteboard&node-id=7%3A19&t=2lUQldGLiVFQu1gk-1
 
 authors:
 - Nick Weemaes
